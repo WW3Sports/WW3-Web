@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VXT Esports - Valorant Team</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: #0a0a0a;
+      color: #f0f0f0;
+    }
+    header {
+      background: #111;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      color: #e63946;
+      font-size: 2.5rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background: #1a1a1a;
+      padding: 15px 0;
+    }
+    nav a {
+      color: #f0f0f0;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #e63946;
+    }
+    section {
+      padding: 50px 30px;
+      max-width: 1200px;
+      margin: 40px auto;
+      background: #121212;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+    }
+    section h2 {
+      margin-bottom: 20px;
+      color: #e63946;
+    }
+    .roster {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      justify-content: center;
+    }
+    .player {
+      background: #1e1e1e;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      width: 220px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    }
+    .player img {
+      width: 90px;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      border: 2px solid #e63946;
+    }
+    ul {
+      list-style: none;
+      padding-left: 20px;
+    }
+    ul li::before {
+      content: '🔴';
+      margin-right: 10px;
+    }
+    iframe {
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #777;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Premire Sports</h1>
+    <p>Valorant Premire Team</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#roster">Roster</a>
+    <a href="#matches">Matches</a>
+    <a href="#media">Media</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a dedicated Valorant team Called the WW3 Recruits trying to make it into the Valorant Premire.</p>
+  </section>
+
+  <section id="roster">
+    <h2>Roster</h2>
+    <div class="roster">
+      <div class="player">
+        <img src="https://cdn.discordapp.com/avatars/981981692149501952/9c0628b7e3e99b86aed9d2699d63681f.webp?size=1024" alt="Nasshi">
+        <h3>Nasshi</h3>
+        <p>Duelist</p>
+        <p>Bronze 1</p>
+      </div>
+      <div class="player">
+        <img src="https://cdn.discordapp.com/avatars/846242779537735680/c29381a07c0be429548297954c436e75.webp?size=1024" alt="YummyPie">
+        <h3>YummyPie</h3>
+        <p>Duelist</p>
+        <p>Gold 1</p>
+      </div>
+      <div class="player">
+        <img src="https://cdn.discordapp.com/avatars/1093973649826009088/2505697e0e4b8d18d922cc43d549cb80.webp?size=1024" alt="Rylan">
+        <h3>Rylan</h3>
+        <p>Initiator</p>
+        <p>Silver 1</p>
+      </div>
+      <div class="player">
+        <img src="https://cdn.discordapp.com/avatars/946472047310168076/08a42dd22e78cda001f9f1b53e6f3997.webp?size=1024" alt="Dino">
+        <h3>Dino</h3>
+        <p>Fill</p>
+        <p>Silver 1</p>
+    </div>
+    <div class="player">
+        <img src="https://cdn.discordapp.com/avatars/937856769974231061/67ab45796cde37ece4eaf292694e680e.webp?size=1024" alt="Panda">
+        <h3>Panda</h3>
+        <p>Duelist</p>
+        <p>Iron 1</p>
+    </div>
+  </section>
+
+  <section id="matches">
+    <h2>Upcoming Matches</h2>
+    <ul>
+      <li>Practice July 2, 7:00 PM - 8:00 PM PDT</li>
+      <li>N/A</li>
+    </ul>
+  </section>
+
+  <section id="media">
+    <h2>Media</h2>
+    <p>Check out VCT 17 plays of 2024:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iDBPLD3a8us" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: contactww3vteam@gmail.com</p>
+    <p>Discord: <a href="https://discord.gg/QvWpbtyBQv" target="_blank" rel="noopener" style="color: #e63946;">discord.gg/QvWpbtyBQv</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 WW3 Esports. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target) {
+          window.scrollTo({ top: target.offsetTop - 60, behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
